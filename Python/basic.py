@@ -29,5 +29,26 @@ e = "%0.4f" % 3.1235323 # 소수점 넷째자리까지 표현해라
 print(e)
 
 # format
-f = "I eat {0} bananas" .format(3)
+f = "I eat {0} bananas , so i tired {1}days" .format("five", 3) # .format(3) 숫자로 넣어도 상관 없다.
 print(f)
+# 3.0이상부터는 f를 붙이면 됨
+name = "봉구"
+age = 29
+g = f"my name is {name} and {age}살 이다"
+print(g)
+
+# join
+h = " to the ".join(['a', 'b', 'd', 'e']) #("abcd")
+print(h)
+
+# split(띄어쓰기)
+i = "Life is too short"
+print(i.split())
+
+# 리스트****** ===== del(지우기), 정렬은 sort사용, [pop(꺼내기),append(추가)], reverse등등 좀 외워 둘것. =====
+j = [ 0, 1, 2 ,["a", "b", "c"]]
+print(j[3])
+print(j[-1][2])
+
+k = [1,2,3]
+print(j + k) # 3 * k 곱하기도 가능**
