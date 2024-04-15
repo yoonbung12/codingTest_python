@@ -34,3 +34,33 @@ else:
 # in, not in
 print(1 in [1,2,3])
 print(1 not in [1,2,3])
+
+# while문
+treeHit = 0
+while treeHit < 10:
+    treeHit += 1
+    print("나무를 %d번 찍었습니다." % treeHit)
+    if treeHit == 11:
+        print("나무가 꺾였습니다.")
+
+# prompt = """
+# 1. ADD
+# 2. DEL
+# 3. LIST
+# 4. QUIT
+# ENTER number: """
+
+# number = 0
+# while number != 4:
+#     print(prompt)
+#     number = int(input())
+
+coffee = 10
+money1 = 3000
+while money1:
+    print("커피를 시켜먹습니다.")
+    coffee -= 1
+    print("남은 커피의 양은 %d 입니다." % coffee)
+    if coffee == 0:
+        print("SOLD OUT")
+        break
