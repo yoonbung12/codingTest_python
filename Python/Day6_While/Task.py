@@ -23,5 +23,5 @@
 #     move_to()
 #     numberOfHudle -= 1
 #     print(numberOfHudle)
-while at_goals() != True:
-    move_to()
+# while at_goals() != True:
+#     move_to()
