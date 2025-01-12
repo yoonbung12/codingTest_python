@@ -17,8 +17,8 @@ userInput = input(f"글자의 갯수는 {wordBar}야 한번 맞춰봐!!").lower(
 for i in range(wordLength):
     if keyword == userInput:
         print("정답 입니다~~")
-        
-    else:
+
+    elif keyword != userInput:
         print("틀렸어 다시 적어")
 
 
