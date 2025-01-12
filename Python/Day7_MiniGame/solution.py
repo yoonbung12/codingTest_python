@@ -1,6 +1,8 @@
 import random
 word_List = ["apple", "mango", "watermelon", "strawberry", "kiwi", "melon"]
 
+# 개선할 작업이 많기는 하지만 나중에.....
+
 lives = 6
 chosenWord = random.choice(word_List)
 print(chosenWord)
