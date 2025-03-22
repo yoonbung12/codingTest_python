@@ -13,14 +13,17 @@ shift = int(input("Type Shift number: \n"))
 # Todo2
 def encrypt(orginal_text, shift_amount):
     cipher_text = ""
-
+    # Todo4
     for letter in orginal_text:
+
         shifted_position = alphabet.index(letter) + shift_amount # 7 -> 9
+
+        shifted_position %= len(alphabet)
         cipher_text += alphabet[shifted_position] # j
 
         print(f"Here is the encoded result: {cipher_text}")
 
 
-# Todo4
+
 encrypt(orginal_text=text, shift_amount=shift)
 
